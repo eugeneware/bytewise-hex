@@ -1,7 +1,7 @@
 {
   "name": "bytewise-hex",
   "version": "0.0.1",
-  "description": "Support for bytewise encodings in hex format",
+  "description": "Support for leveldb/levelup bytewise encodings in hex format",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
