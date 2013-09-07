@@ -1,0 +1,36 @@
+{
+  "name": "bytewise-hex",
+  "version": "0.0.1",
+  "description": "Support for bytewise encodings in hex format",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/bytewise-hex.git"
+  },
+  "keywords": [
+    "bytewise",
+    "levelup",
+    "leveldb",
+    "hex",
+    "encoding",
+    "byteup"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/bytewise-hex/issues"
+  },
+  "dependencies": {
+    "bytewise": "~0.5.0",
+    "bops": "0.0.6"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.12.1",
+    "level": "~0.15.0",
+    "rimraf": "~2.2.2"
+  }
+}
