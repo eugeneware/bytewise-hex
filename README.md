@@ -3,6 +3,11 @@
 A simple wrapper around the bytewise library to support leveldb/levelup bytewise hex encoding.
 For use with leveldb / [levelup](https://github.com/rvagg/node-levelup)
 
+This is extracted from [bytewise](https://github.com/deanlandolt/bytewise/blob/master/hex.js).
+
+This will be unnecessary when bytwise adds support for the hex codec directly
+with `require('bytewise/hex')`.
+
 [![build status](https://secure.travis-ci.org/eugeneware/bytewise-hex.png)](http://travis-ci.org/eugeneware/bytewise-hex)
 
 # Installation
