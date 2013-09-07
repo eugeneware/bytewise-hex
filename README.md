@@ -1,6 +1,6 @@
 # bytewise-hex
 
-A simple wrapper around the bytewise library to support bytewise hex encoding.
+A simple wrapper around the bytewise library to support leveldb/levelup bytewise hex encoding.
 For use with leveldb / [levelup](https://github.com/rvagg/node-levelup)
 
 [![build status](https://secure.travis-ci.org/eugeneware/bytewise-hex.png)](http://travis-ci.org/eugeneware/bytewise-hex)
