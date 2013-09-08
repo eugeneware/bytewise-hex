@@ -5,8 +5,10 @@ For use with leveldb / [levelup](https://github.com/rvagg/node-levelup)
 
 This is extracted from [bytewise](https://github.com/deanlandolt/bytewise/blob/master/hex.js).
 
-NB: This will be unnecessary when bytwise adds support for the hex codec directly
-with `require('bytewise/hex')`.
+NB: This is unnecessary now (as of bytewise 0.6), and under the hood just does
+`require('bytewise/hex')` for backwards compatability.
+
+This is the recommended way of getting string-based bytewise support in leveldb.
 
 [![build status](https://secure.travis-ci.org/eugeneware/bytewise-hex.png)](http://travis-ci.org/eugeneware/bytewise-hex)
 

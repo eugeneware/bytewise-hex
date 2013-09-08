@@ -24,7 +24,7 @@
     "url": "https://github.com/eugeneware/bytewise-hex/issues"
   },
   "dependencies": {
-    "bytewise": "~0.5.0",
+    "bytewise": "~0.6.0",
     "bops": "0.0.6"
   },
   "devDependencies": {
