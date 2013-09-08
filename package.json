@@ -1,6 +1,6 @@
 {
   "name": "bytewise-hex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Support for leveldb/levelup bytewise encodings in hex format",
   "main": "index.js",
   "scripts": {
